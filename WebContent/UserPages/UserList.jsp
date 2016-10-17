@@ -13,6 +13,8 @@
 </c:choose>
 <div id="content"></div>
 <script type="text/babel">
+		var userName = "";
+		var phoneNumber = "";
 		var UsersList = React.createClass({
 				getInitialState: function() {
 					return {editing: false}
@@ -105,8 +107,6 @@
 
 		var Users = React.createClass({
 			getInitialState: function() {
-				var userName = "";
-				var phoneNumber = "";
 				return {adding: false}
 			},
 			add: function() {
