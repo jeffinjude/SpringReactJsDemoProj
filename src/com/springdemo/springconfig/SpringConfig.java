@@ -34,7 +34,7 @@ public class SpringConfig {
 	private static final String MYSQL_SERVER_PORT = "3306";
 	private static final String DB_NAME = "springdemo";
 	private static final String DB_USERNAME = "root";
-	private static final String DB_PASSWORD = "";
+	private static final String DB_PASSWORD = "admin";
 	
 	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
