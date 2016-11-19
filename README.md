@@ -1,2 +1,2 @@
-Spring web application with React Js UI.
+Copy of https://github.com/jeffinjude/SpringReactJsDemo project with eclipse config files removed
 
